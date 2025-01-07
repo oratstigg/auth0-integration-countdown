@@ -115,8 +115,7 @@
 
 			const myCountdown = new countdown({
 				target: countDownTimerTarget,
-				endDate: Date.parse('2025-01-08 16:00'),
-				//endDate: Date.now() + 7 * 1000,
+				endDate: Date.parse('2025-01-08T16:00:00.000+02:00'), // local time in Israel (UTC+02:00)
 				dayWord: 'Days',
 				hourWord: 'Hours',
 				minWord: 'Minutes',
